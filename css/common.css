@@ -77,9 +77,23 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 320px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 16px;
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .container {
+    padding: 0 15px;
+    max-width: 1158px;
+  }
 }
 
 .sr-only {
