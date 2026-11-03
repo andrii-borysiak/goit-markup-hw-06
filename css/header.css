@@ -38,6 +38,7 @@
   }
 
   .header-logo {
+    padding: 0;
     margin-right: 120px;
   }
   .header-container {
@@ -120,6 +121,7 @@
 
   .contacts-list-link {
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
   }
 }

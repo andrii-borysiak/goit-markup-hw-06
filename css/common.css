@@ -76,10 +76,16 @@ img {
   padding: 96px 0;
 }
 
+@media (min-width: 1158px) {
+  .section-padding {
+    padding: 120px 0;
+  }
+}
+
 .container {
   max-width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 @media (min-width: 768px) {
