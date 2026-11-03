@@ -3,7 +3,7 @@
 }
 
 .header-logo {
-  padding: 16px;
+  padding: 16px 0;
   margin-right: auto;
   font-family: var(--second-family);
   font-weight: 700;

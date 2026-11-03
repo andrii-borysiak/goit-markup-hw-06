@@ -135,14 +135,13 @@
 
 @media (min-width: 768px) {
   .footer-container {
-    width: 768px;
-    padding: 0 108px;
+    max-width: 530px;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: start;
+    align-items: start;
   }
 
   .footer-subscribe-form .subscribe-form-input {
