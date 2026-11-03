@@ -106,7 +106,8 @@
     flex-basis: 593px;
   }
 
-  .contacts-list {
+  .header-container .contacts-list {
+    flex-direction: row;
     width: 344px;
   }
 
@@ -116,6 +117,7 @@
 
   .header-container .contacts-list {
     display: flex;
+
     column-gap: 40px;
   }
 
