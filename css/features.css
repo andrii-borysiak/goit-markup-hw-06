@@ -8,11 +8,12 @@
 .features-list-item {
   width: 288px;
   height: 120px;
-  max-width: 288px;
+  max-width: 100%;
 }
 
 .features-list-title {
   margin-bottom: 8px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   text-align: center;
@@ -73,6 +74,7 @@
   .features-list-title {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
   }
 
   .features-list-decoration {
